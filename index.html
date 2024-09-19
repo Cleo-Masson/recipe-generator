@@ -13,20 +13,22 @@
       <h1>AI Recipe Generator</h1>
 
       <main>
-        <div>
+        <div class="form-container">
           <form id="recipe-generator">
             <input
               type="text"
-              placeholder="enter the recipe"
+              placeholder="Enter a recipe preference"
               autofocus
               required
               class="form-input"
               id="user-instructions"
             />
+
             <input type="submit" class="submit-button" />
           </form>
+          <div class="hint">i.e chicken, chickpeas, fish or meat</div>
         </div>
-        <div class="recipe-output" id="recipe-output"></div>
+        <div class="recipe-output hidden" id="recipe-output"></div>
       </main>
 
       <footer>
