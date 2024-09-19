@@ -57,6 +57,10 @@ form {
 .hidden {
   display: none;
 }
+
+a {
+  color: #ee712b;
+}
 footer {
   margin-top: 30px;
 }
